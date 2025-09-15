@@ -1,0 +1,6 @@
+__pycache__/
+logs/*
+config/*config.yaml
+test.*
+chat_history.json
+.project

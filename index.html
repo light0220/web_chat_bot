@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文心一言聊天机器人</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>文心一言聊天机器人</h1>
+            <button id="config-btn">配置</button>
+            <button id="reset-btn">重置聊天</button>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <!-- 聊天消息将在这里显示 -->
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="输入消息...">
+            <button id="send-btn">发送</button>
+        </div>
+    </div>
+    
+    <!-- 配置编辑面板 -->
+    <div class="config-panel" id="config-panel">
+        <h2>机器人配置</h2>
+        <div class="config-form">
+            <label for="bot-name">机器人名称:</label>
+            <input type="text" id="bot-name">
+            
+            <label for="bot-role">角色设定:</label>
+            <textarea id="bot-role" rows="4"></textarea>
+            
+            <label for="welcome-words">欢迎语:</label>
+            <input type="text" id="welcome-words">
+            
+            <label for="model-name">聊天模型:</label>
+            <input type="text" id="model-name" placeholder="例如：ernie-4.5-turbo-128k">
+            
+            <!-- 移除敏感词输入框，不允许前端修改 -->
+            
+            <div class="form-actions">
+                <button id="save-config">保存配置</button>
+                <button id="cancel-config">取消</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+    
