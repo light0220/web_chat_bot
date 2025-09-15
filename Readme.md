@@ -1,7 +1,7 @@
 <!--
  * @作    者 : 北极星光 light22@126.com
  * @创建时间 : 2025-09-16 01:47:52
- * @最后修改 : 2025-09-16 02:36:41
+ * @最后修改 : 2025-09-16 02:44:43
  * @修 改 者 : 北极星光
 -->
 
@@ -23,7 +23,7 @@
 
 - Python 3.6+
 - 浏览器：Chrome、Firefox、Safari等
-- 百度文心一言apiKey ，获取地址：[https://console.bce.baidu.com/iam/#/iam/apikey/list]()
+- 百度文心一言apiKey ，获取地址：[https://console.bce.baidu.com/iam/#/iam/apikey/list](https://console.bce.baidu.com/iam/#/iam/apikey/list)
 
 安装：
 
